@@ -16,23 +16,25 @@ including their descriptions.
     <ul>
         <li>Admins with the <code>ADMIN</code> role can perform the following actions:</li>
             <ul>
-                <li>Create and delete movies</li>
+                <li>Create movies</li>
                 <li>Create and delete movie sessions</li>
-                <li>Create and delete cinema halls</li>
+                <li>Create cinema halls</li>
                 <li>View available movies with their description</li>
                 <li>View available movie sessions and in which cinema hall they will be</li>
                 <li>View available cinema halls</li>
+                <li>Adding tickets to the shopping cart</li>
+                <li>Complete the order (with saving date and time)</li>
             </ul>
         <li>Users with the <code>USER</code> role can perform the following actions:</li>
             <ul>
                 <li>View available movies with their description</li>
                 <li>View available movie sessions and in which cinema hall they will be</li>
                 <li>View available cinema halls</li>
+                <li>Adding tickets to the shopping cart</li>
+                <li>Complete the order (with saving date and time)</li>
             </ul>
     </ul>
 <li>Registration of new users with creating personal shopping cart</li>
-<li>Adding tickets to the shopping cart</li>
-<li>Complete the order (with saving date and time)</li>
 </ul>
 
 ## Getting Started
@@ -121,4 +123,4 @@ with the USER role) or register a new one by sending a POST request to <code>...
 
 Yehor Cherkashyn
 
-[My LinkerIn](https://www.linkedin.com/in/yehor-cherkashyn-19406b243/)
+[My LinkedIn](https://www.linkedin.com/in/yehor-cherkashyn-19406b243/)
