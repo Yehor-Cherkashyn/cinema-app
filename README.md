@@ -19,6 +19,9 @@ including their descriptions.
                 <li>Create and delete movies</li>
                 <li>Create and delete movie sessions</li>
                 <li>Create and delete cinema halls</li>
+                <li>View available movies with their description</li>
+                <li>View available movie sessions and in which cinema hall they will be</li>
+                <li>View available cinema halls</li>
             </ul>
         <li>Users with the <code>USER</code> role can perform the following actions:</li>
             <ul>
@@ -35,6 +38,7 @@ including their descriptions.
 ## Getting Started
 
 <ul>
+<li>Install JDK, Tomcat, MySQL</li>
 <li>Clone the project repository to your local machine</li>
 <li>Create an empty schema in your DB</li>
 <li>Replace the values of the <code>YOUR_DRIVER</code>, <code>YOUR_DATABASE_URL</code>, 
@@ -44,8 +48,8 @@ with the appropriate values for your database setup</li>
 <li>Build the project using Maven: <code>mvn clean install</code></li>
 <li>Deploy the generated WAR file to servlet container such as Tomcat</li>
 <li>Login with an existing account (<code>login: admin@gmail.com</code> <code>password: admin123</code> 
-with the ADMIN and USER roles or <code>login: user@gmail.com</code> <code>password: user123</code>
-with the ADMIN and USER roles) or register a new one by sending a POST request to <code>.../register</code> endpoint</li>
+with the ADMIN role or <code>login: user@gmail.com</code> <code>password: user123</code>
+with the USER role) or register a new one by sending a POST request to <code>.../register</code> endpoint</li>
 </ul>
 
 ## Structure
@@ -94,6 +98,8 @@ with the ADMIN and USER roles) or register a new one by sending a POST request t
 <li>service: Service interfaces and their implementations that perform business logic</li>
 <li>util: Utility class used in a project to save DateTime pattern</li>
 <li>resources: Non-Java files that save database configurations</li>
+
+## Additional
 <li>Model Structure:</li>
 
 ![Tux, the Linux mascot](/Model_Structure.png)
