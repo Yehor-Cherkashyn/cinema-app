@@ -101,6 +101,8 @@ with the USER role) or register a new one by sending a POST request to <code>...
 <li>util: Utility class used in a project to save DateTime pattern</li>
 <li>resources: Non-Java files that save database configurations</li>
 
+### Also, you can use my Postman request collection: [Postman](https://www.postman.com/gooooodvin/workspace/public/collection/21990349-93501b07-f85b-4b66-b919-0443f83e9d7d?action=share&creator=21990349)
+
 ## Additional
 <li>Model Structure:</li>
 
